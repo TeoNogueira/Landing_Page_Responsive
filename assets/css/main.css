@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+* {
+    
+     margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+body {
+
+   background: #f3f1f2;
+    font-family: 'Open Sans', sans-serif;
+    /*color: #fff;  /*/
+    font-size: 1.2em;
+}
+
+ul li {
+
+    list-style: none;
+}
+
+.wrapper-bg {
+
+min-height: 100vh;
+background: url(/assets/images/bg-desktop.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: #423b9b;
+display: flex;
+justify-content: center;
+
+}
+
+
+.wrapper-bg .wrapper .logo {
+
+padding: 55px 0;
+
+
+}
+
+
+.wrapper-bg .wrapper .logo img {
+
+height: 53px;
+
+
+}
+
+.wrapper-bg .wrapper .main-container {
+
+display: flex;
+flex-direction: row;
+margin: 26px 0 10px;
+max-width: 1300px;
+
+}
+
+
+
+
+.wrapper-bg .wrapper .main-container .container {
+
+    padding: 46px 0 0 56px;
+    
+    }
+
+.wrapper-bg .wrapper .main-container .container h1 {
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+ }
+
+
+.wrapper-bg .wrapper .main-container .container h1 span {
+         
+            display: block;
+   
+           }
+
+
+.wrapper-bg .wrapper .main-container .container p {
+                
+  line-height: 28px;
+ margin: 18px 0 38px;  
+
+}
+
+
+.wrapper-bg .wrapper .main-container .container a {
+padding: 15px 65px;
+font-family: 'Poppins', sans-serif; 
+background: white;
+border-radius: 50px;
+text-decoration: none;
+font-weight: 800;
+color: #1b1b1b;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
+transition: .2s;
+
+}
+
+
+.wrapper-bg .wrapper .main-container .container a:hover {
+
+background: #74cafc;
+color: #1b1b1b;
+
+
+}
+
+
+.footer-wrapper ul {
+
+padding-bottom: 20px;
+
+
+}
+
+
+.footer-wrapper .social {
+
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+
+
+
+    .footer-wrapper .social ul {
+
+        display: flex;
+       list-style: none;
+        
+        }
+
+
+
+
+    .footer-wrapper .social ul li:nth-child(2){
+
+    margin: 0 15px;
+
+    }
+
+    .footer-wrapper .social ul li:nth-child(4){
+
+        margin: 0 15px;
+    
+        }
+
+
+.footer-wrapper .social ul li a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border: solid white 1px;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.footer-wrapper .social ul li a:hover {
+
+border-color: #4498dd;
+color: #4edae4;
+
+}
+
+/*RESPONSIVE DESIGN*/
+
+
+
+
+@media (min-width: 768px) and (max-width: 1259px) {
+
+.wrapper-bg .wrapper .main-container {
+ 
+    margin-bottom: 30px;
+
+}
+
+.wrapper-bg .wrapper .main-container .illustration {
+
+width: 40%;
+display: flex;
+align-items: center;
+
+}
+.wrapper-bg .wrapper .main-container .illustration img {
+
+width: 100%;
+
+}
+
+.wrapper-bg .wrapper .main-container .container {
+
+    width: 60%;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+.wrapper-bg {
+
+    background: url(/assets/images/bg-mobile.svg) no-repeat;
+   background-color: #74cafc;
+   background-position: top center;
+}
+
+.wrapper-bg .wrapper .main-container .container h1 {
+    font-size: 24px;
+  }
+
+
+  .wrapper-bg .wrapper .main-container .container a {
+    padding: 10px 65px;
+
+}
+
+.wrapper-bg .wrapper .social {
+
+justify-content: center;
+margin-bottom: 20px;
+
+}
+
+.wrapper-bg .wrapper .social a {
+
+
+    height: 30px;
+    width: 30px;
+}
+}
