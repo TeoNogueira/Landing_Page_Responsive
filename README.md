@@ -52,7 +52,7 @@ As principais ferramentas usadas:
 <a href="https://github.com/TeoNogueira">🌀 Github Teo_Nogueira</a><br/>
 <a href="https://instagram.com/teo_nogueira">🌀 Instagram Teo_Nogueira</a><br/>
   <a href="https://www.instagram.com/beginjscript/">🌀 MyPage BeginJScript   <a href="">
-   <img width="15" title="Socket.io" alt="" src="https://github.com/TeoNogueira/Api-pokemons-project/blob/master/jsa.png">
+ 
 </a> &#xa0; &#xa0;</a><br/>
   
 
@@ -64,5 +64,3 @@ As principais ferramentas usadas:
 </div>
 <div>📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌 </div>
 <br/>
-### Credits
-- [x] Roger Melo
