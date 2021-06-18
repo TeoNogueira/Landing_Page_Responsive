@@ -38,7 +38,7 @@ As principais ferramentas usadas:
 ## 📚 Content
 #### About Code
 
-- [x] Boas Práticas de responsividade através do CSS3 e bootStrap.
+- [x] Boas Práticas de responsividade através de HTML e CSS3.
 
 
 ## :white_check_mark: Prerequisites ##
